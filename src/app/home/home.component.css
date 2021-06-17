@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-image {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.background-image {
+  max-height: 100vh;
+  width: 100%;
+}
+
+.big-background {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
