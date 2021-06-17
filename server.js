@@ -16,7 +16,7 @@ const app = express();
 app.use(express.static(__dirname + "/dist/resume-project"));
 
 app.get("/*", function (req, res) {
-  res.sendFile("index.html", { root: "dist/resume-project>/" });
+  res.sendFile("index.html", { root: "dist/resume-project/" });
 });
 
 // Start the app by listening on the default Heroku port
