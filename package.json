@@ -1,7 +1,12 @@
 {
   "name": "resume-project",
   "version": "0.0.0",
+    "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
+  },
   "scripts": {
+    "heroku-postbuild": "ng build --prod",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
